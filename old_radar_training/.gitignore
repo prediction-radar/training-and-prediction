@@ -1,0 +1,9 @@
+grib_files/
+csv_files/
+venv/
+data/
+.DS_Store
+sync_changes_to_cloud
+random_coords.txt
+combined_data.csv
+model/test_conv_lstm.keras

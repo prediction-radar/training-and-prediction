@@ -1,0 +1,1 @@
+cdo sellonlatbox,-101.25,-95.625,36.59789,40.9799 today_grib.grib2 cropped.grib2

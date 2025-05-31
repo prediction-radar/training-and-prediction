@@ -1,0 +1,6 @@
+gdal_translate -a_nodata 0 -of GTiff today_grib.grib2 work/intermediate.tif
+
+gdaldem color-relief work/intermediate.tif colortable.txt work/output_colored.tif
+
+gdal_translate -of PNG work/output_colored.tif test.png
+gdal_translate -of PNG work/output_colored.tif test.png -a_nodata 0
