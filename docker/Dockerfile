@@ -44,9 +44,6 @@ WORKDIR /workspace
 # Copy your training scripts into the container
 COPY scripts/ /workspace/scripts/
 
-# Verify TensorFlow GPU installation
-RUN python -c "import tensorflow as tf; print('TensorFlow version:', tf.__version__); print('GPU devices:', tf.config.list_physical_devices('GPU'))"
-
 # Set the working directory for script execution
 WORKDIR /workspace
 
