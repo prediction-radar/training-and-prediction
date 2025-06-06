@@ -8,7 +8,6 @@ scikit-learn==1.4.0
 
 # Visualization and analysis
 matplotlib==3.8.2
-#seaborn==0.13.0
 
 # Image processing and utilities
 imageio==2.33.0
@@ -17,19 +16,7 @@ Pillow==10.2.0
 # Interactive computing
 IPython==8.18.0
 ipywidgets==8.1.1
-jupyter==1.0.0
 
 # Web scraping and HTTP requests
 beautifulsoup4==4.12.2
 requests==2.31.0
-#lxml==4.9.4
-
-# Additional useful ML libraries
-#tqdm==4.66.1
-#wandb==0.16.1
-#tensorboard==2.15.1
-
-# Development and debugging tools
-#pytest==7.4.4
-#black==24.1.0
-#flake8==7.0.0
