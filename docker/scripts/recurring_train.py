@@ -16,12 +16,12 @@ import tensorflow as tf
 import io
 import threading
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import ConvLSTM2D, Conv3D, BatchNormalization, Input, Activation
-from tensorflow.keras.models import load_model
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
-from tensorflow.keras import backend as K
-from tensorflow.keras.optimizers import AdamW
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import ConvLSTM2D, Conv3D, BatchNormalization, Input, Activation # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau # type: ignore
+from tensorflow.keras import backend as K # type: ignore
+from tensorflow.keras.optimizers import AdamW # type: ignore
 import subprocess
 
 
